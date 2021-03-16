@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const appid = "0ceaf26a3a0ccfffb043e9fc05e393e9";
+const appid = "YourAppID";
 let loc = 'mumbai';
 
 app.get('/', function(req,res){
